@@ -8,7 +8,7 @@
 
 /* GENERALI */
  body {
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", Normal;
  }
 
  .container {
@@ -30,6 +30,9 @@
  /* FINE GENERALI */
 
  /* INIZIO HEADER */
+ header .nav .col {
+   float: left;
+ }
  header {
    background-color: white;
    height: 800px;
@@ -38,23 +41,46 @@
    height: 80px;
    background-color: #cbd6e2;
  }
+ header nav .menu li {
+   display: inline-block;
+   padding: 20px 25px;
+ }
+ header nav .menu li a:hover {
+   color: orange;
+ }
+ header .nav .menu li a {
+   margin-right: 10px;
+   font-size: 13px;
+ }
  header nav .menu-left{
    width: 50%;
    height: 100%;
-   background: yellow;
  }
  header nav .menu-right {
    width: 50%;
    height: 100%;
-   background: blue;
+   text-align: right;
+   text-decoration: none;
+   /* dove va messo text-decoration:none? */
  }
+ header nav .menu .Login {
+   border: 2px solid green;
+   border-radius: 3px;
+   padding: 5px;
+   background-color: white;
+ }
+ header nav .menu .GetHubSpotFree {
+   border: 2px solid Orange;
+   border-radius: 3px;
+   padding: 5px;
+   background-color: Orange;
+
  header nav {
    height: 80px;
    background-image:url();
-
  }
  nav .globe {
   <i class="fas fa-globe-europe"></i>
-
-
+  /* NON RIESCO A UTILIZZARE IL POTERE DI FONT AWESOME */
  }
+ /* FINE HEADER */
