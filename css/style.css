@@ -12,75 +12,101 @@
  }
 
  .container {
-   margin: 0 auto;
-   width: 1280px;
-   height: 100%;
-   background: green;
+  margin: 0 auto;
+  width: 1280px;
+  height: 100%;
+  background: lightgrey;
  }
-
  .clearfix::after {
-   content:'';
-   display: table;
-   clear: both;
+  content:'';
+  display: table;
+  clear: both;
  }
-
  .col {
    float: left;
  }
+
  /* FINE GENERALI */
 
  /* INIZIO HEADER */
  header .nav .col {
-   float: left;
+  float: left;
  }
  header {
-   background-color: white;
-   height: 800px;
+  background-color: white;
+  height: 800px;
  }
+ /* PRIMA COLONNA */
  header nav {
-   height: 80px;
-   background-color: #cbd6e2;
+  height: 80px;
+  background-color: #f5f8fa;
+  display: block;
  }
  header nav .menu li {
-   display: inline-block;
-   padding: 20px 25px;
+  display: inline-block;
+  padding: 40px 15px 40px 40px;
+  font-size: 12px;
  }
  header nav .menu li a:hover {
-   color: orange;
+  color: lightgrey;
  }
- header .nav .menu li a {
-   margin-right: 10px;
-   font-size: 13px;
+ header nav .menu li a {
+  font-size: 13px;
+  color: #33475b;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
  }
  header nav .menu-left{
-   width: 50%;
-   height: 100%;
- }
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
  header nav .menu-right {
-   width: 50%;
-   height: 100%;
-   text-align: right;
-   text-decoration: none;
-   /* dove va messo text-decoration:none? */
+  width: 50%;
+  height: 100%;
+  text-align: right;
  }
  header nav .menu .Login {
-   border: 2px solid green;
-   border-radius: 3px;
-   padding: 5px;
-   background-color: white;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 13px 30px 12px 25px;
+/* Top - Right - Bottom - Left */
+  background-color: white;
  }
  header nav .menu .GetHubSpotFree {
-   border: 2px solid Orange;
-   border-radius: 3px;
-   padding: 5px;
-   background-color: Orange;
+  border: 1px solid White;
+  border-radius: 5px;
+  padding: 13px 15px 12px 15px;
+  background-color: Orange;
+}
+/* FINE PRIMA COLONNA */
 
- header nav {
-   height: 80px;
-   background-image:url();
+/* INIZIO SECONDA COLONNA */ /* COME CHIAMO IL SECONDO MENU CON IL LOGO?*/
+header nav .logo img{
+  float: left;
+  width: 100px;
+}
+header nav .col .menu-logo {
+  height: 50px;
+  width: 15%;
+  float: right;
+}
+ header nav .col .menu-logo li a {
+  line-height: 30px;
+  padding-right: 10px;
+  margin-right: 5px;
+  position: relative;
+  text-transform: uppercase;
  }
- nav .globe {
-  <i class="fas fa-globe-europe"></i>
-  /* NON RIESCO A UTILIZZARE IL POTERE DI FONT AWESOME */
+/* FINE SECONDA COLONNA */
+/* JUMBOTRON */
+
+ header nav .jumbotron {
+  position: relative;
+  background-size: px;
+  height: 80%;
+  weight: 75%;
  }
+ /* FINE JUMBOTRON */
  /* FINE HEADER */
