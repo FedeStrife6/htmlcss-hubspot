@@ -6,14 +6,14 @@
 }
 /* FINE RESET */
 
-/* GENERALI */
+/* REGOLE GENERALI */
 body {
-  font-family: "Montserrat", Normal;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   margin: auto;
   width: 1280px;
-  height: 970px;
+  height: 890px;
   background: lightgrey;
 }
 .clearfix::after {
@@ -29,7 +29,7 @@ p.text {
   color: #0b325a;
   line-height: 15px;
 }
-/* FINE GENERALI */
+/* FINE REGOLE GENERALI */
 
 /* INIZIO HEADER */
 header nav {
@@ -111,7 +111,7 @@ header nav .logo {
  MA SONO CONVINTO CHE IL POSIZIONAMENTO DEL MENU TRAMITE
  LA LARGHEZZA DI .LOGO SIA ERRATO*
 
-/* fine bottom menu */
+/* Fine bottom menu */
 
 /* JUMBOTRON */
 header .jumbotron {
@@ -149,34 +149,84 @@ header nav .teaser-button a:hover {
  /* FINE JUMBOTRON */
  /* FINE HEADER */
 
- /* INIZIO INFO-TOP*/
-
-main #info-top {
+ /* INIZIO INFO-SLOGAN*/
+main .info {
   position: relative;
   text-align: center;
   margin: auto;
   width: 1280px;
-  height: 800px;
+  height: 1280px;
   background: #e5f1f5;
 }
-main .cube {
-  display: block;
+main .cube img {
+  text-align: center;
+  margin: 35px auto;
+  width: auto;
+  height: 180px;
+}
+main .info h2 {
+  text-align: center;
+  font-family: inherit;
+  text-transform: capitalize;
+  color: #33475b;
+}
+main .info p {
+  text-align: center;
+  padding: 15px 0 7px 0;
+}
+main .info hr {
+  height: 3px;
+  width: 200px;
+  margin: 3px auto;
+  border: 2px solid black;
+}
+ /* FINE INFO-SLOGAN */
+
+ /* INIZIO COLONNA ORIZZONTALE */
+main #first-feature {
+  text-align: left;
   margin: auto;
+  width: 700px;
+  height: 400px;
+  background: white;
+ }
+main .book img {
+  position: left;
+  text-align: left;
+  margin: 35px auto;
+  width: auto;
+  height: 180px;
+ }
+main #first-feature h2 {
   text-align: center;
-  line-height: 150px;
-}
-main #info-top h2 {
-  text-align: center;
-}
-main #info-top p {
-  text-align: center;
-}
-main #info-top hr {
+  font-family: inherit;
+  text-transform: capitalize;
+  color: #33475b;
+ }
+ main #first-feature {
+   text-align: center;
+   padding: 15px 0 5px;
+ }
+ main #first-feature hr {
   height: 3px;
   width: 200px;
   margin: 25px auto;
   border: 2px solid black;
+ }
+/* FINE COLONNA ORIZZONTALE*/
+
+main #feature .col {
+  width: 50px;
+  height: 50px;
+  background-color: red;
 }
 
 
-/* FINE INFO-TOP */
+
+
+
+
+
+
+
+ /* FINE INFO */
