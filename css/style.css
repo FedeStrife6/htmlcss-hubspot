@@ -7,106 +7,167 @@
 /* FINE RESET */
 
 /* GENERALI */
- body {
+body {
   font-family: "Montserrat", Normal;
- }
-
- .container {
-  margin: 0 auto;
+}
+.container {
+  margin: auto;
   width: 1280px;
   height: 100%;
   background: lightgrey;
- }
- .clearfix::after {
+}
+.clearfix::after {
   content:'';
   display: table;
   clear: both;
- }
- .col {
-   float: left;
- }
-
- /* FINE GENERALI */
-
- /* INIZIO HEADER */
- header .nav .col {
+}
+.col {
   float: left;
- }
- header {
+}
+.button {
+  border: 1px solid White;
+  background-color: Orange;
+  color: White;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/* FINE GENERALI */
+
+/* INIZIO HEADER */
+header nav {
+  border-bottom: 1px solid black;
+}
+header .nav .col {
+  float: left;
+}
+header {
   background-color: white;
   height: 800px;
- }
- /* PRIMA COLONNA */
- header nav {
+}
+/* Inizio Top Menu */
+header nav.nav-top {
   height: 80px;
   background-color: #f5f8fa;
   display: block;
- }
- header nav .menu li {
+}
+header nav.nav-bottom {
+  height: 80px;
+  background-color: white;
+  display: block;
+}
+header nav .logo {
+  height: 80px;
+  line-height: 80px;
+}
+header nav .logo img {
+  vertical-align: middle;
+}
+header nav .menu li {
   display: inline-block;
-  padding: 40px 15px 40px 40px;
+  line-height: 80px;
+  padding: 0 10px;
   font-size: 12px;
- }
- header nav .menu li a:hover {
+}
+header nav .menu li a:hover {
   color: lightgrey;
- }
- header nav .menu li a {
+}
+header nav .menu li a {
   font-size: 13px;
   color: #33475b;
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
- }
- header nav .menu-left{
+}
+header nav .menu-left{
   width: 50%;
   height: 100%;
   text-align: left;
 }
- header nav .menu-right {
+header nav .menu-right {
   width: 50%;
   height: 100%;
   text-align: right;
- }
- header nav .menu .Login {
+}
+header nav .menu .login {
   border: 1px solid orange;
   border-radius: 5px;
   padding: 13px 30px 12px 25px;
-/* Top - Right - Bottom - Left */
   background-color: white;
- }
- header nav .menu .GetHubSpotFree {
+}
+header nav .menu .button {
   border: 1px solid White;
   border-radius: 5px;
-  padding: 13px 15px 12px 15px;
+  padding: 13px 8px 12px 8px;
   background-color: Orange;
 }
-/* FINE PRIMA COLONNA */
+/* Fine top menu */
 
-/* INIZIO SECONDA COLONNA */ /* COME CHIAMO IL SECONDO MENU CON IL LOGO?*/
-header nav .logo img{
+/* Inizio bottom menu */
+header nav .logo {
   float: left;
-  width: 100px;
+  width: 20%;
 }
-header nav .col .menu-logo {
+header nav .menu-logo {
   height: 50px;
-  width: 15%;
+  width: 80%;
   float: right;
+  text-align: right;
 }
- header nav .col .menu-logo li a {
+header nav .col .bottom-menu li a {
   line-height: 30px;
-  padding-right: 10px;
+  padding-right: 20px;
   margin-right: 5px;
   position: relative;
   text-transform: uppercase;
- }
-/* FINE SECONDA COLONNA */
+}
+/* fine bottom menu */
 /* JUMBOTRON */
-
- header nav .jumbotron {
+header .jumbotron {
   position: relative;
-  background-size: px;
-  height: 80%;
-  weight: 75%;
+  background-size: 1350px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/jumbotron.png);
+}
+ header .teaser h1{
+  position: absolute;
+  top: 5%;
+  font-size: 40px;
+  color: #33475b;
  }
+header .teaser p {
+  position: absolute;
+  top: 20%;
+  font-size: 15px;
+  color: #33475b;
+}
+header .teaser-button {
+  position: absolute;
+  border: 1px solid White;
+  border-radius: 5px;
+  padding: 18px 22px 18px 22px;
+  background-color: Orange;
+  left: 0;
+  bottom: 65%;
+  font-size: 12px;
+}
+header .divisorio {
+  position: absolute;
+  height: 80px;
+  background-color: grey;
+}
+/*NON RIESCO A METTERE QUESTO SPAZIO SUBITO DOPO L'IMG DEL MAIN */
  /* FINE JUMBOTRON */
+
  /* FINE HEADER */
+
+ main .container2 {
+   position: relative;
+   margin: auto;
+   width: 1280px;
+   height: 300px;
+   background: blue;
+ }
+ main .section {
+
+ }
