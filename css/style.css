@@ -24,6 +24,11 @@ body {
 .col {
   float: left;
 }
+p.text {
+  font-size: 13px;
+  color: #0b325a;
+  line-height: 15px;
+}
 /* FINE GENERALI */
 
 /* INIZIO HEADER */
@@ -92,6 +97,9 @@ header nav .menu .button {
   padding: 13px 8px 12px 8px;
   background-color: Orange;
 }
+header nav .menu .button a:hover {
+  color: lightgrey; /*???*/
+}
 /* Fine top menu */
 
 /* Inizio bottom menu */
@@ -141,19 +149,34 @@ header nav .teaser-button a:hover {
  /* FINE JUMBOTRON */
  /* FINE HEADER */
 
- main .container2 {
+ /* INIZIO INFO-TOP*/
+
+main #info-top {
   position: relative;
+  text-align: center;
   margin: auto;
   width: 1280px;
   height: 800px;
-  background: #dcdcff;
- }
- main .container2 .mezzo-cubo{
-  margin-bottom: 50px;
-  position: absolute;
-  background-size: 300px;
-  float:left;
- }
- main .section {
+  background: #e5f1f5;
+}
+main .cube {
+  display: block;
+  margin: auto;
+  text-align: center;
+  line-height: 150px;
+}
+main #info-top h2 {
+  text-align: center;
+}
+main #info-top p {
+  text-align: center;
+}
+main #info-top hr {
+  height: 3px;
+  width: 200px;
+  margin: 25px auto;
+  border: 2px solid black;
+}
 
- }
+
+/* FINE INFO-TOP */
