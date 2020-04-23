@@ -184,30 +184,32 @@ main .info hr {
 
  /* INIZIO COLONNA ORIZZONTALE */
 main #first-feature {
-  text-align: left;
+  position: relative;
+  background-position: top;
   margin: auto;
-  width: 700px;
-  height: 400px;
+  width: 900px;
+  height: 250px;
   background: white;
+  bottom: 500px;(appena messo questo blocco ha collassato verso il bottom, come lo sistemo?)
+  border-radius: 3px;
  }
-main .book img {
+main #first-feature .book img {
   position: left;
-  text-align: left;
-  margin: 35px auto;
+  margin: 15px 40px;
   width: auto;
-  height: 180px;
+  height: 100px;
  }
-main #first-feature h2 {
-  text-align: center;
+main #first-feature .col h3 {
+  text-align: right;
   font-family: inherit;
   text-transform: capitalize;
   color: #33475b;
  }
- main #first-feature {
+main #first-feature p{
    text-align: center;
    padding: 15px 0 5px;
  }
- main #first-feature hr {
+main #first-feature hr {
   height: 3px;
   width: 200px;
   margin: 25px auto;
@@ -215,11 +217,21 @@ main #first-feature h2 {
  }
 /* FINE COLONNA ORIZZONTALE*/
 
+/* INIZIO COLONNA VERTICALE UNO */
 main #feature .col {
-  width: 50px;
-  height: 50px;
+  width: 500px;
+  height: 500px;
   background-color: red;
 }
+/* FINE COLONNA VERTICALE UNO */
+
+/* INIZIO COLONNA VERTICALE DUE */
+
+/* FINE COLONNA VERTICALE DUE */
+
+
+
+
 
 
 
